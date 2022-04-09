@@ -1,0 +1,21 @@
+{
+    "name": "pc/mvc_php",
+    "autoload": {
+        "psr-4": {
+            "Pc\\MvcPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zuy"
+        }
+    ],
+    "autoload":{
+        "psr-4": {
+            "app\\" : "./"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
